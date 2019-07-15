@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>orgLimits_aura</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>orgLimits_lwc</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>GetOrgLimits</members>
+        <members>GetOrgLimitsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <version>46.0</version>
+</Package>

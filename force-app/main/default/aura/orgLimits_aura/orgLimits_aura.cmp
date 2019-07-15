@@ -1,0 +1,19 @@
+<aura:component controller="GetOrgLimits" implements="flexipage:availableForAllPageTypes" access="global" >
+    <aura:attribute name="orgLimits" type="Object[]" />
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
+
+    <div class="slds-box slds-theme_default">
+        <aura:if isTrue="{!(v.orgLimits.length>0)}">
+            <aura:iteration items="{!v.orgLimits}" var="result">
+                {!result.name} : {!result.usage} / {!result.max} ( {!result.usageRate}% )
+                <lightning:progressBar value="{!result.usageRate}"/>
+            </aura:iteration>
+            <aura:set attribute="else">
+                <ui:message title="Error" severity="error" >
+                    Can't get orgLimits at this time.
+                </ui:message>
+            </aura:set>
+        </aura:if>
+    </div>
+
+</aura:component>
