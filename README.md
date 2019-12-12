@@ -15,7 +15,7 @@ Note: Both Aura Component and LWC work as same.  You don't have to install both.
 ## How to install
 Besides installing by metadata api / sfdx command, you can install them as an unlocked package;
 
-* sfdx force:package:install --package 04t0I000000jDz4QAE
+* `sfdx force:package:install --package 04t0I000000jDz4QAE`
 
 or
 
@@ -44,10 +44,13 @@ Note: auraコンポーネントとLWCの機能は全く同じですので、両�
 ### インストール方法
 git cloneしてmetadata api/sfdxコマンドでインストールする以外にロック解除済パッケージとしてインストールすることができます。
 
-* sfdx force:package:install --package 04t0I000000jDz4QAE
+* `sfdx force:package:install --package 04t0I000000jDz4QAE`
 
 あるいは
 
 * https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0I000000jDz4QAE
 
-    Sandboxにインストールするときは'login.salesforce.com' を 'test.salesforce.com' におきかえてください。
+    Sandboxにインストールするときは'login.salesforce.com' を 'test.salesforce.com' におきかえてください。  
+  
+
+![Screen Shot 2019-12-12 at 14 05 19](https://user-images.githubusercontent.com/17230754/70686226-01222d80-1cef-11ea-8ce7-f55376a6b330.png)
