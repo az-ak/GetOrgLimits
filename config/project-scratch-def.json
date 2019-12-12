@@ -1,10 +1,5 @@
 {
-  "orgName": "akihiro.aizawa Company",
+  "orgName": "GetOrgLimits Test",
   "edition": "Developer",
-  "features": [],
-  "settings": {
-    "orgPreferenceSettings": {
-      "s1DesktopEnabled": true
-    }
-  }
+  "hasSampleData" : true
 }

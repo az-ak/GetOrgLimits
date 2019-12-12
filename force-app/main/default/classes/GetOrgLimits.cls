@@ -2,13 +2,13 @@ public without sharing class GetOrgLimits {
 
     class Data implements Comparable {
         @AuraEnabled
-        String name{get; set;}
+        public String name{get; set;}
         @AuraEnabled
-        Integer max{get; set;}
+        public Integer max{get; set;}
         @AuraEnabled
-        Integer usage{get; set;}
+        public Integer usage{get; set;}
         @AuraEnabled
-        Integer usageRate{get; set;}
+        public Integer usageRate{get; set;}
 
         public Data(String name, Integer max, Integer usage){
             this.name = name;
